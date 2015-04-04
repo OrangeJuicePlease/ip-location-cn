@@ -1,0 +1,19 @@
+{
+    "name": "orange-juice-please/ip-location-cn",
+    "description": "IP address database",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Xiang Gao",
+            "email": "phoenix.x.gao@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": ["src/IP.php"],
+        "psr-4": {
+            "OJP\\IpLocationCN\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
